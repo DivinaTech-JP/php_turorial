@@ -1,6 +1,8 @@
 <?php
-$i = 0;
-while (true) {
-    echo $i  . PHP_EOL;
-    $i++;
+for ($i=0; $i < 3; $i++) { 
+    for ($j=0; $j < 3; $j++) { 
+        echo $i + $j;
+        echo ' ';
+    }
+    echo PHP_EOL;
 }
