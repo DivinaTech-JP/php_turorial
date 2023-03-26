@@ -1,6 +1,6 @@
 <?php
-$i = 0;
-while ($i < 3) {
+$i = 3;
+while ($i > 0) {
     echo $i . PHP_EOL;
-    $i++;
+    $i--;
 }
